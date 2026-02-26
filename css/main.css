@@ -15,7 +15,28 @@ html {
     font-size: 1em;
     line-height: 1.4;
 }
+html, body {
+    overflow-x: hidden;
+}
+.how-it-works {
+    background: #ffffff;
+    padding: 90px 0;
+}
 
+.image-wrapper {
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: 18px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+.controlled-img {
+    width: 100%;
+    height: auto;
+    max-height: 420px;
+    object-fit: cover;
+    display: block;
+}
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -279,4 +300,55 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+
+    /* ================= SLIDER TEXT STYLE ================= */
+
+.slider-content {
+    margin-top: 180px;
+}
+
+.slider-content h1.title1 {
+    font-size: 64px;
+    font-weight: 800;
+    line-height: 1.1;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.slider-content h2.title2 {
+    font-size: 36px;
+    font-weight: 600;
+    color: #01baef; /* رنگ آبی قالب اصلی */
+    margin-bottom: 15px;
+}
+
+.slider-content p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Animation like original template */
+.slider-direction .slider-content h1,
+.slider-direction .slider-content h2,
+.slider-direction .slider-content p {
+    animation-duration: 1.2s;
+}
+
+/* Responsive */
+@media (max-width: 991px) {
+    .slider-content h1.title1 {
+        font-size: 42px;
+    }
+    .slider-content h2.title2 {
+        font-size: 26px;
+    }
+    .slider-content p {
+        font-size: 16px;
+    }
+}
 }
