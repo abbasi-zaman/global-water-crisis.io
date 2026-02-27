@@ -11,31 +11,32 @@
    ========================================================================== */
 
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
 }
-html, body {
-    overflow-x: hidden;
+html,
+body {
+  overflow-x: hidden;
 }
 .how-it-works {
-    background: #ffffff;
-    padding: 90px 0;
+  background: #ffffff;
+  padding: 90px 0;
 }
 
 .image-wrapper {
-    max-width: 100%;
-    overflow: hidden;
-    border-radius: 18px;
-    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+  max-width: 100%;
+  overflow: hidden;
+  border-radius: 18px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.12);
 }
 
 .controlled-img {
-    width: 100%;
-    height: auto;
-    max-height: 420px;
-    object-fit: cover;
-    display: block;
+  width: 100%;
+  height: auto;
+  max-height: 420px;
+  object-fit: cover;
+  display: block;
 }
 /*
  * Remove text-shadow in selection highlight:
@@ -46,13 +47,13 @@ html, body {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 /*
@@ -60,12 +61,12 @@ html, body {
  */
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 /*
@@ -80,7 +81,7 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 /*
@@ -88,9 +89,9 @@ video {
  */
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*
@@ -98,7 +99,7 @@ fieldset {
  */
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 /* ==========================================================================
@@ -106,31 +107,15 @@ textarea {
    ========================================================================== */
 
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
 
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* ==========================================================================
    Helper classes
@@ -141,7 +126,7 @@ textarea {
  */
 
 .hidden {
-    display: none !important;
+  display: none !important;
 }
 
 /*
@@ -150,14 +135,14 @@ textarea {
  */
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
 }
 
 /*
@@ -168,12 +153,12 @@ textarea {
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
 }
 
 /*
@@ -181,7 +166,7 @@ textarea {
  */
 
 .invisible {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 /*
@@ -198,12 +183,12 @@ textarea {
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+  content: " "; /* 1 */
+  display: table; /* 2 */
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /* ==========================================================================
@@ -213,14 +198,14 @@ textarea {
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+  /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
@@ -230,125 +215,164 @@ textarea {
    ========================================================================== */
 
 @media print {
-    *,
-    *:before,
-    *:after,
-    *:first-letter,
-    *:first-line {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster:
+  *,
+  *:before,
+  *:after,
+  *:first-letter,
+  *:first-line {
+    background: transparent !important;
+    color: #000 !important; /* Black prints faster:
                                    http://www.sanbeiji.com/archives/953 */
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
 
-    /*
+  /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
 
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
 
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
 
-    /*
+  /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
 
-    thead {
-        display: table-header-group;
-    }
+  thead {
+    display: table-header-group;
+  }
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
 
-    img {
-        max-width: 100% !important;
-    }
+  img {
+    max-width: 100% !important;
+  }
 
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
 
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
 
-    /* ================= SLIDER TEXT STYLE ================= */
+  /* ================= SLIDER TEXT STYLE ================= */
 
-.slider-content {
+  .slider-content {
     margin-top: 180px;
-}
+  }
 
-.slider-content h1.title1 {
+  .slider-content h1.title1 {
     font-size: 64px;
     font-weight: 800;
     line-height: 1.1;
     color: #ffffff;
     text-transform: uppercase;
     margin-bottom: 10px;
-}
+  }
 
-.slider-content h2.title2 {
+  .slider-content h2.title2 {
     font-size: 36px;
     font-weight: 600;
     color: #01baef; /* رنگ آبی قالب اصلی */
     margin-bottom: 15px;
-}
+  }
 
-.slider-content p {
+  .slider-content p {
     font-size: 20px;
     font-weight: 400;
     color: #ffffff;
     max-width: 700px;
     margin: 0 auto;
     line-height: 1.6;
-}
+  }
 
-/* Animation like original template */
-.slider-direction .slider-content h1,
-.slider-direction .slider-content h2,
-.slider-direction .slider-content p {
+  /* Animation like original template */
+  .slider-direction .slider-content h1,
+  .slider-direction .slider-content h2,
+  .slider-direction .slider-content p {
     animation-duration: 1.2s;
-}
+  }
 
-/* Responsive */
-@media (max-width: 991px) {
+  /* Responsive */
+  @media (max-width: 991px) {
     .slider-content h1.title1 {
-        font-size: 42px;
+      font-size: 42px;
     }
     .slider-content h2.title2 {
-        font-size: 26px;
+      font-size: 26px;
     }
     .slider-content p {
-        font-size: 16px;
+      font-size: 16px;
     }
+  }
 }
+/* ================= SLIDER RESPONSIVE FIX ================= */
+
+@media (max-width: 991px) {
+  .slider-content {
+    margin-top: 120px;
+  }
+
+  .slider-content h1.title1 {
+    font-size: 42px;
+  }
+
+  .slider-content h2.title2 {
+    font-size: 26px;
+  }
+
+  .slider-content p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 575px) {
+  .slider-content {
+    margin-top: 90px;
+    padding: 0 15px;
+  }
+
+  .slider-content h1.title1 {
+    font-size: 30px;
+    line-height: 1.2;
+  }
+
+  .slider-content h2.title2 {
+    font-size: 20px;
+  }
+
+  .slider-content p {
+    font-size: 14px;
+  }
 }
